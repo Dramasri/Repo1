@@ -21,6 +21,16 @@ public class Ropose {
 		
 		driver.quit();
 		
+		System.out.println("updated");
+		
+		driver.close();
+		
+		driver.get("www.amazon.in");
+		
+		driver.getTitle();
+		
+		driver.quit();
+		
 		
 		
 	}
